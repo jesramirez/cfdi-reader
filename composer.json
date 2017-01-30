@@ -1,0 +1,18 @@
+{
+    "name": "sismutmx/cfdi-reader",
+    "type": "library",
+    "description": "Biblioteca en php para leer CFDI",
+    "keywords": ["cfdi", "php cfdi reader"],
+    "homepage": "https://github.com/sismutmx/cfdi-reader",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CFDI\\Reader\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "league/container": "v2.*",
+        "symfony/finder": "v3.*"
+    }
+}
