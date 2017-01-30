@@ -15,7 +15,7 @@ class ComprobanteDTO
     protected $emisor;
 
     /**
-     * @var Impuestos
+     * @var ImpuestosDTO
      */
     protected $impuestos;
 
@@ -36,7 +36,7 @@ class ComprobanteDTO
     }
 
     /**
-     * @return Impuestos
+     * @return ImpuestosDTO
      */
     public function getImpuestos()
     {
@@ -44,7 +44,7 @@ class ComprobanteDTO
     }
 
     /**
-     * @param Impuestos $impuestos
+     * @param ImpuestosDTO $impuestos
      */
     public function setImpuestos($impuestos)
     {

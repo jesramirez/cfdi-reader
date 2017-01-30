@@ -7,7 +7,7 @@ namespace CFDI\Reader\DataTypes;
  * Date: 29/01/2017
  * Time: 09:28 PM
  */
-class Traslado
+class TrasladoDTO
 {
     /**
      * @var
