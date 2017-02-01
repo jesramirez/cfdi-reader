@@ -7,7 +7,7 @@ namespace CFDI\Reader\DataTypes;
  * Date: 01/02/2017
  * Time: 12:32 AM
  */
-class DomicilioFiscalEmisorDTO extends DireccionAbstractDTO
+class DomicilioFiscalEmisorDTO extends DomicilioDTO
 {
     /**
      * @var string

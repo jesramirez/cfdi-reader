@@ -10,5 +10,26 @@ namespace CFDI\Reader\DataTypes;
  */
 class ReceptorDTO extends ContribuyenteAbstractDTO
 {
+    /**
+     * @var DomicilioDTO
+     */
+    protected $domicilio;
 
+    /**
+     * @return DomicilioDTO
+     */
+    public function getDomicilio()
+    {
+        return $this->domicilio;
+    }
+
+    /**
+     * @param DomicilioDTO $domicilio
+     * @return ReceptorDTO
+     */
+    public function setDomicilio($domicilio)
+    {
+        $this->domicilio = $domicilio;
+        return $this;
+    }
 }
