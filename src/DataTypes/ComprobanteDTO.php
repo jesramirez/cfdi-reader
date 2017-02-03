@@ -10,7 +10,7 @@ namespace CFDI\Reader\DataTypes;
 class ComprobanteDTO
 {
     /**
-     * @var Emisor
+     * @var EmisorDTO
      */
     protected $emisor;
 
@@ -20,7 +20,7 @@ class ComprobanteDTO
     protected $impuestos;
 
     /**
-     * @return Emisor
+     * @return EmisorDTO
      */
     public function getEmisor()
     {
@@ -28,7 +28,7 @@ class ComprobanteDTO
     }
 
     /**
-     * @param Emisor $emisor
+     * @param EmisorDTO $emisor
      */
     public function setEmisor($emisor)
     {
