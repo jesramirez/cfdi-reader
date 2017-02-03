@@ -15,6 +15,11 @@ class ImpuestosDTO
     protected $traslados = [];
 
     /**
+     * @var array
+     */
+    protected $retenciones = [];
+
+    /**
      * @return array
      */
     public function getTraslados()
@@ -23,10 +28,30 @@ class ImpuestosDTO
     }
 
     /**
-     * @param TrasladoDTO $traslado
+     * @param ImpuestoDTO $traslado
+     * @return $this
      */
-    public function addTraslado(TrasladoDTO $traslado)
+    public function addTraslado(ImpuestoDTO $traslado)
     {
         array_push($this->traslados, $traslado);
+        return $this;
+    }
+
+    /**
+     * @return array
+     */
+    public function getRetenciones()
+    {
+        return $this->retenciones;
+    }
+
+    /**
+     * @param ImpuestoDTO $retencion
+     * @return $this
+     */
+    public function addRetencion(ImpuestoDTO $retencion)
+    {
+        array_push($this->retenciones, $retencion);
+        return $this;
     }
 }
