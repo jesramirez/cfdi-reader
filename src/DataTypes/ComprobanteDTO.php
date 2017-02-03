@@ -15,9 +15,24 @@ class ComprobanteDTO
     protected $emisor;
 
     /**
+     * @var ReceptorDTO
+     */
+    protected $receptor;
+
+    /**
+     * @var array
+     */
+    protected $conceptos;
+
+    /**
      * @var ImpuestosDTO
      */
     protected $impuestos;
+
+    /**
+     * @var TimbreFiscalDigitalDTO
+     */
+    protected $timbreFiscalDigital;
 
     /**
      * @return EmisorDTO
@@ -29,10 +44,48 @@ class ComprobanteDTO
 
     /**
      * @param EmisorDTO $emisor
+     * @return ComprobanteDTO
      */
     public function setEmisor($emisor)
     {
         $this->emisor = $emisor;
+        return $this;
+    }
+
+    /**
+     * @return ReceptorDTO
+     */
+    public function getReceptor()
+    {
+        return $this->receptor;
+    }
+
+    /**
+     * @param ReceptorDTO $receptor
+     * @return ComprobanteDTO
+     */
+    public function setReceptor($receptor)
+    {
+        $this->receptor = $receptor;
+        return $this;
+    }
+
+    /**
+     * @return array
+     */
+    public function getConceptos()
+    {
+        return $this->conceptos;
+    }
+
+    /**
+     * @param array $conceptos
+     * @return ComprobanteDTO
+     */
+    public function setConceptos($conceptos)
+    {
+        $this->conceptos = $conceptos;
+        return $this;
     }
 
     /**
@@ -45,9 +98,29 @@ class ComprobanteDTO
 
     /**
      * @param ImpuestosDTO $impuestos
+     * @return ComprobanteDTO
      */
     public function setImpuestos($impuestos)
     {
         $this->impuestos = $impuestos;
+        return $this;
+    }
+
+    /**
+     * @return TimbreFiscalDigitalDTO
+     */
+    public function getTimbreFiscalDigital()
+    {
+        return $this->timbreFiscalDigital;
+    }
+
+    /**
+     * @param TimbreFiscalDigitalDTO $timbreFiscalDigital
+     * @return ComprobanteDTO
+     */
+    public function setTimbreFiscalDigital($timbreFiscalDigital)
+    {
+        $this->timbreFiscalDigital = $timbreFiscalDigital;
+        return $this;
     }
 }
