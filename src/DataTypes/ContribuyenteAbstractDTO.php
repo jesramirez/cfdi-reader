@@ -42,7 +42,7 @@ abstract class ContribuyenteAbstractDTO
     /**
      * @return string
      */
-    public function getRfc()
+    public function getRFC()
     {
         return $this->rfc;
     }
@@ -51,7 +51,7 @@ abstract class ContribuyenteAbstractDTO
      * @param string $rfc
      * @return ContribuyenteAbstractDTO
      */
-    public function setRfc($rfc)
+    public function setRFC($rfc)
     {
         $this->rfc = $rfc;
         return $this;
