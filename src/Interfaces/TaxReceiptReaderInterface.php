@@ -10,6 +10,16 @@ namespace CFDI\Interfaces;
 interface TaxReceiptReaderInterface
 {
     /**
+     * Namespace para validar CFDI
+     */
+    const NAMESPACE_CFDI = 'http://www.sat.gob.mx/cfd/3';
+
+    /**
+     * Namespace adicional del complemento TFD
+     */
+    const NAMESPACE_TFD = 'http://www.sat.gob.mx/TimbreFiscalDigital';
+
+    /**
      * @return string
      */
     public function getLugarExpedicion();
