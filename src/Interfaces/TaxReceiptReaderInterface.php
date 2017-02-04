@@ -1,6 +1,6 @@
 <?php
 
-namespace CFDI\Interfaces;
+namespace Sismut\CFDIReader\Interfaces;
 
 /**
  * User: @fabianjuarezmx
