@@ -49,7 +49,7 @@ class DomicilioDTO
 
     /**
      * @param string $calle
-     * @return DireccionAbstractDTO
+     * @return DomicilioDTO
      */
     public function setCalle($calle)
     {
@@ -67,7 +67,7 @@ class DomicilioDTO
 
     /**
      * @param string $codigoPostal
-     * @return DireccionAbstractDTO
+     * @return DomicilioDTO
      */
     public function setCodigoPostal($codigoPostal)
     {
@@ -85,7 +85,7 @@ class DomicilioDTO
 
     /**
      * @param string $colonia
-     * @return DireccionAbstractDTO
+     * @return DomicilioDTO
      */
     public function setColonia($colonia)
     {
@@ -103,7 +103,7 @@ class DomicilioDTO
 
     /**
      * @param string $estado
-     * @return DireccionAbstractDTO
+     * @return DomicilioDTO
      */
     public function setEstado($estado)
     {
@@ -121,7 +121,7 @@ class DomicilioDTO
 
     /**
      * @param string $municipio
-     * @return DireccionAbstractDTO
+     * @return DomicilioDTO
      */
     public function setMunicipio($municipio)
     {
@@ -139,7 +139,7 @@ class DomicilioDTO
 
     /**
      * @param string $pais
-     * @return DireccionAbstractDTO
+     * @return DomicilioDTO
      */
     public function setPais($pais)
     {
