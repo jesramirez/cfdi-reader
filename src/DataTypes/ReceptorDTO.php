@@ -1,6 +1,6 @@
 <?php
 
-namespace CFDI\Reader\DataTypes;
+namespace Sismut\CFDIReader\DataTypes;
 
 /**
  * Datos del nodo Receptor

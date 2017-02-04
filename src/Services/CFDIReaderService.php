@@ -1,5 +1,7 @@
 <?php
 
+namespace Sismut\CFDIReader\Services;
+
 /**
  * User: @fabianjuarezmx
  * Date: 29/01/2017
